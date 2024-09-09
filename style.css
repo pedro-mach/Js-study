@@ -5,14 +5,7 @@
     padding: 0;
 
 }
-@media only screen and (max-width: 600px) {
-    header h1 {
-      font-size: 30px;
-    }
-    header a {
-      font-size: 20px;
-    }
-  }
+
 
 #inp-text {
     width: 100%; /* Já funciona em telas menores, mas pode ser mantido */
@@ -22,28 +15,7 @@ main {
     justify-content: center; /* Centraliza o conteúdo horizontalmente */
   }
   
-@media only screen and (max-width: 600px) {
-    #boas-vindas {
-      margin-top: 10vh; /* Reduz a margem superior em telas menores */
-    }
-  }
-  @media only screen and (max-width: 600px) {
-    .cars-result h2 {
-      font-size: 1.2rem; /* Reduz o tamanho da fonte em telas menores */
-    }
-    .desc {
-      font-size: 0.9rem; /* Reduz o tamanho da fonte em telas menores */
-    }
-  }
-  footer {
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-  }
-  
-  @media only screen and (max-width: 600px) {
-    footer {
-      flex-direction: column; /* Empilha o conteúdo em telas menores */
-    }
-  }
+
 
 body {
     font-family: 'Chakra Petch', sans-serif;
@@ -230,3 +202,41 @@ footer p{
         width: 100%;
     }
 }
+@media only screen and (max-width: 600px) {
+    header h1 {
+      font-size: 30px;
+    }
+    header a {
+      font-size: 20px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #boas-vindas {
+      margin-top: 10vh; /* Reduz a margem superior em telas menores */
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .cars-result h2 {
+      font-size: 1.2rem; /* Reduz o tamanho da fonte em telas menores */
+    }
+    .desc {
+      font-size: 0.9rem; /* Reduz o tamanho da fonte em telas menores */
+    }
+  }
+  footer {
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  }
+  
+  @media only screen and (max-width: 600px) {
+    footer {
+      flex-direction: column; /* Empilha o conteúdo em telas menores */
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    header h1 {
+      font-size: 30px;
+    }
+    header a {
+      font-size: 20px;
+    }
+  }
