@@ -121,11 +121,10 @@ button{
 .cars-search {
     width: 60rem; /* Largura máxima da caixa de resultados */
     height: 46vh; /* Altura máxima da caixa de resultados */
-    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    overflow-y: auto;/* Adiciona rolagem vertical se necessário */
     margin: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
-    background-color: #f5f2d0;
     
 }
 
@@ -136,6 +135,7 @@ button{
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
+
 
 .cars-result h2 {
     font-size: 1.5rem; /* Tamanho da fonte */
