@@ -6,17 +6,6 @@
 
 }
 
-
-#inp-text {
-    width: 100%; /* Já funciona em telas menores, mas pode ser mantido */
-  }
-  
-main {
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-  }
-  
-
-
 body {
     font-family: 'Chakra Petch', sans-serif;
     background-color: #DDDDDD;
@@ -67,7 +56,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
     background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url('img/background-img.webp');
     background-size: cover;
     background-position: center;
@@ -165,9 +154,7 @@ button{
 }
 /* Footer */
 footer {
-    width: auto;
-    margin: 0; 
-    padding: 10;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -182,11 +169,13 @@ footer p{
 }
 
 
-@media screen and (max-width:768px) {
-  body{
-    display: block;
-    width: 100vw;
-  }
+@media screen and (max-width:700px) {
+    body {
+        font-family: 'Chakra Petch', sans-serif;
+        background-color: #DDDDDD;
+        min-height: 100vh;
+
+    }
   header{
     flex-direction: column;
     align-items: center;
@@ -200,8 +189,10 @@ footer p{
     opacity: 0;
   }
   main{
+    height: auto;
     display: block;
     padding: 2em;
+    flex-grow: 1;
     background-image: url(img/Mobile-wallpaper.png);
     align-items: center;
     text-align: center;
@@ -209,4 +200,39 @@ footer p{
   #boas-vindas{
     margin: 0;
   }
+  .cars-search {
+    width: auto; /* Largura máxima da caixa de resultados */
+    overflow-y: auto;/* Adiciona rolagem vertical se necessário */
+    overflow:scroll;
+    margin: 10px;
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+    
+    }   
+  .cars-result {
+    display: block; /* Largura máxima da caixa de resultados */
+    background: #FFFFFF; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    }
+
+    .desc {
+    color: #45474B; /* Cor do texto */
+    font-size: 18px;
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+    }
+
+    footer {
+    display: block;
+    width: 100%;
+    background-color: #949494;
+    color: white;
+    text-align: center;
+    }
+
+    footer p{
+    font-size: 10px;
+    margin: 5px;
+    }
 }
