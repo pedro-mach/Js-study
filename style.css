@@ -181,62 +181,32 @@ footer p{
     margin: 5px;
 }
 
-@media only screen and (max-width: 600px) {
-    main {
-        height: 100vh;
-    }
-    #boas-vindas {
-        margin-top: 20vh;
-    }
-    #input {
-        flex-direction: column;
-    }
-    #inp-text {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-    input::placeholder {
-        font-size: 15px;
-    }
-    button {
-        width: 100%;
-    }
+
+@media screen and (max-width:768px) {
+  body{
+    display: block;
+    width: 100vw;
+  }
+  header{
+    flex-direction: column;
+    align-items: center;
+  }
+  header h1{
+    font-size: 50px;
+    align-items: center;
+  }
+  header a{
+    pointer-events: none;
+    opacity: 0;
+  }
+  main{
+    display: block;
+    padding: 2em;
+    background-image: url(img/Mobile-wallpaper.png);
+    align-items: center;
+    text-align: center;
+  }
+  #boas-vindas{
+    margin: 0;
+  }
 }
-@media only screen and (max-width: 600px) {
-    header h1 {
-      font-size: 30px;
-    }
-    header a {
-      font-size: 20px;
-    }
-  }
-  @media only screen and (max-width: 600px) {
-    #boas-vindas {
-      margin-top: 10vh; /* Reduz a margem superior em telas menores */
-    }
-  }
-  @media only screen and (max-width: 600px) {
-    .cars-result h2 {
-      font-size: 1.2rem; /* Reduz o tamanho da fonte em telas menores */
-    }
-    .desc {
-      font-size: 0.9rem; /* Reduz o tamanho da fonte em telas menores */
-    }
-  }
-  footer {
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-  }
-  
-  @media only screen and (max-width: 600px) {
-    footer {
-      flex-direction: column; /* Empilha o conteúdo em telas menores */
-    }
-  }
-  @media only screen and (max-width: 600px) {
-    header h1 {
-      font-size: 30px;
-    }
-    header a {
-      font-size: 20px;
-    }
-  }
