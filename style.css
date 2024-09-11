@@ -3,8 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    overflow-x:hidden;
-    text-align: center;
+
 }
 
 body {
@@ -170,30 +169,25 @@ footer p{
 }
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:700px) {
     body {
         font-family: 'Chakra Petch', sans-serif;
         background-color: #DDDDDD;
-        background-color:#444444; /* background porsche*/
-        
-    }
+        min-height: 100vh;
 
+    }
   header{
     flex-direction: column;
     align-items: center;
-    width: 100vw;
   }
-
   header h1{
     font-size: 50px;
     align-items: center;
   }
-
   header a{
     pointer-events: none;
     opacity: 0;
   }
-
   main{
     height: auto;
     display: block;
@@ -203,28 +197,10 @@ footer p{
     align-items: center;
     text-align: center;
   }
-
   #boas-vindas{
     margin: 0;
   }
-
-  #inp-text{
-    display: block;
-    width: 80vw;
-    height: 2vh;
-    border: 2px solid #969595;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.274);
-    border-radius: 5px;
-    }
-
-    input::placeholder {
-    font-family: 'Chakra Petch', sans-serif;
-    font-size: 15px;
-    font-weight: bolder;
-    color: #cf0e0e5d ;
-    }
-
-    .cars-search {
+  .cars-search {
     width: auto; /* Largura máxima da caixa de resultados */
     overflow-y: auto;/* Adiciona rolagem vertical se necessário */
     overflow:scroll;
@@ -232,9 +208,8 @@ footer p{
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
     
-    } 
-
-    .cars-result {
+    }   
+  .cars-result {
     display: block; /* Largura máxima da caixa de resultados */
     background: #FFFFFF; /* Cor de fundo dos itens */
     border-radius: 0.6rem; /* Borda arredondada */
