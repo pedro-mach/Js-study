@@ -3,8 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    overflow-x:hidden;
-    text-align: center;
 }
 
 body {
@@ -171,11 +169,15 @@ footer p{
 
 
 @media screen and (max-width:800px) {
+    * {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden !important;
+    }
     body {
         font-family: 'Chakra Petch', sans-serif;
         background-color: #DDDDDD;
         background-color:#444444; /* background porsche*/
-        
     }
 
   header{
@@ -187,8 +189,14 @@ footer p{
   header h1{
     font-size: 50px;
     align-items: center;
+    overflow-y: hidden;
   }
-
+  ul{
+    overflow-y: hidden;
+  }
+  li{
+    overflow-y: hidden;
+  }
   header a{
     pointer-events: none;
     opacity: 0;
