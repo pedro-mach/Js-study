@@ -10,7 +10,7 @@ function pesquisar(){
         return
     }
     for (let infos of dados){
-        if (infos.nome.toLowerCase().includes(input.toLowerCase()) || infos.especs.toLowerCase().includes(input.toLowerCase()) || infos.tag.toLowerCase().includes(input.toLowerCase())){
+        if (infos.nome.toLowerCase().includes(input.toLowerCase()) || infos.especs.toLowerCase().includes(input.toLowerCase()) || infos.tag.toLowerCase().includes(input.toLowerCase())) {
         result += `
         <div class="cars-result">
         <h2>${infos.nome}</h2>

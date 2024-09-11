@@ -77,28 +77,4 @@ let dados = [
         link: "https://www.bmw.com.br/pt/all-models/m-series/m8-gran-coupe.html",
         tag: "BMW, coupe, esportivo, motor v8, performance, alemao, tracao integral"
     },
-    {
-        nome: "Ferrari California",
-        especs: "V12 6.3 L || Potência máxima: 963 cv || Torque máximo: 700 Nm || Transmissão dual-clutch de 7 velocidades || Sistema híbrido",
-        link: "https://www.ferrari.com/en-US/cars/california",
-        tag: "Ferrari"
-    },
-    {
-        nome: "Mercedes-Benz S-Class",
-        especs: "6-cilindros em linha turbo 3.0 L || Potência máxima: 510 cv || Torque máximo: 650 Nm || Transmissão M Steptronic de 8 velocidades || Tracao traseira",
-        link: "https://www.mercedes-benz.com.br/modelos/",
-        tags: "Mercedes-Benz, S-Class, turbo, Tracao traseira"
-    },
-    {
-        nome: "Volkswagen Beetle",
-        especs: "4-cilindros turbo 2.0 L || Potência máxima: 245 cv || Torque máximo: 370 Nm || Transmissão S tronic de 7 velocidades || Design esportivo",
-        link: "https://www.volkswagen.com.br/modelos/beetle/",
-        tag: "Volkswagen, compacto, design"
-    },
-    {
-        nome: "Citroën C3",
-        especs: "4-cilindros turbo 2.0 L || Potência máxima: 245 cv || Torque máximo: 370 Nm || Transmissão S tronic de 7 velocidades || Design esportivo",
-        link: "https://www.citroen.com.br/carros/c3/",
-        tag: "Citroën, compacto, design"
-    },
 ];
