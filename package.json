@@ -1,0 +1,17 @@
+{
+  "name": "js-study",
+  "version": "1.0.0",
+  "description": "Este projeto é uma aplicação web simples para pesquisa de carros esportivos. Ele permite que o usuário busque por carros com base em palavras-chave e exibe os resultados em uma interface intuitiva.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "type": "module"
+}

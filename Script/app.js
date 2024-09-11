@@ -1,4 +1,3 @@
-// console.log(dados);
 function pesquisar(){
     let pesquisa = document.getElementById("cars-search")
 
